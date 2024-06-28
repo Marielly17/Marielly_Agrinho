@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(122, 120, 117);
+    padding: 20px 0;
+}
+
+#logo{
+    width: 60%;
+    margin-left: -150px;
+}
+.caixa{
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}   
+nav{
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+nav li{
+    display:inline;
+    margin:0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a :hover{
+    color: #d62f2f;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 10px solid blue ;
+    border-radius: 10px;
+    border-style: bold;
+}
+#banner{
+    width: 60%;
+}
+.produtos li :hover{
+    border-color: black;
+}
+.produtos li.active{
+    border-color: black;
+}
+.produtos li.hover h2{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+footer{
+    background-color: rgb(181, 182, 184);
+    color: rgb(30, 37, 37);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
